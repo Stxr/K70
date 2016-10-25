@@ -1,0 +1,1369 @@
+Archive member included because of file (symbol)
+
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                              ./Drivers/Ppm.o (__mulsi3)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                              ./Shell/CommandParser.o (__udivmodqi4)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                              ./Apps/Debug.o (__divmodhi4)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                              ./Shell/ServoUnit.o (__udivmodsi4)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o (exit)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              ./Shell/Api.o (__do_clear_bss)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                              e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                              ./Lib/Queue.o (malloc)
+
+Allocating common symbols
+Common symbol       size              file
+
+__brkval            0x2               e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+__flp               0x2               e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+LOAD ./Shell/Api.o
+LOAD ./Shell/ClockUnit.o
+LOAD ./Shell/CommandParser.o
+LOAD ./Shell/ServoUnit.o
+LOAD ./Shell/SignalUnit.o
+LOAD ./Shell/SystemUnit.o
+LOAD ./Shell/TtlBusUnit.o
+LOAD ./Lib/DynamixelProtocol.o
+LOAD ./Lib/Mapping.o
+LOAD ./Lib/Queue.o
+LOAD ./Lib/UpRobotProtocol.o
+LOAD ./Drivers/Adc.o
+LOAD ./Drivers/ExtInt.o
+LOAD ./Drivers/Gpio.o
+LOAD ./Drivers/Isr.o
+LOAD ./Drivers/Led.o
+LOAD ./Drivers/Ppm.o
+LOAD ./Drivers/Sim.o
+LOAD ./Drivers/Spi.o
+LOAD ./Drivers/Timer.o
+LOAD ./Drivers/Uart.o
+LOAD ./Drivers/VirtualUart.o
+LOAD ./Apps/Debug.o
+LOAD ./Apps/RobotDog.o
+LOAD ./Apps/SystemInit.o
+LOAD ./Apps/SystemTask.o
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x82c8
+ *(.vectors)
+ .vectors       0x00000000       0x8c e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x0000008c                . = ALIGN (0x2)
+                0x0000008c                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000008c        0x0 linker stubs
+ *(.trampolines*)
+                0x0000008c                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000008c                __ctors_start = .
+ *(.ctors)
+                0x0000008c                __ctors_end = .
+                0x0000008c                __dtors_start = .
+ *(.dtors)
+                0x0000008c                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000008c        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x0000008c                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000008c        0xc e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000098       0x1a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000098                __do_copy_data
+ .init4         0x000000b2       0x10 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000000b2                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000c2        0x8 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x000000ca        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000000ca                __vector_22
+                0x000000ca                __vector_28
+                0x000000ca                __vector_32
+                0x000000ca                __vector_34
+                0x000000ca                __vector_24
+                0x000000ca                __vector_12
+                0x000000ca                __bad_interrupt
+                0x000000ca                __vector_6
+                0x000000ca                __vector_3
+                0x000000ca                __vector_23
+                0x000000ca                __vector_25
+                0x000000ca                __vector_11
+                0x000000ca                __vector_13
+                0x000000ca                __vector_7
+                0x000000ca                __vector_27
+                0x000000ca                __vector_5
+                0x000000ca                __vector_33
+                0x000000ca                __vector_4
+                0x000000ca                __vector_9
+                0x000000ca                __vector_2
+                0x000000ca                __vector_21
+                0x000000ca                __vector_15
+                0x000000ca                __vector_8
+                0x000000ca                __vector_14
+                0x000000ca                __vector_10
+ .text          0x000000ce        0x0 ./Shell/Api.o
+ .text          0x000000ce        0x0 ./Shell/ClockUnit.o
+ .text          0x000000ce        0x0 ./Shell/CommandParser.o
+ .text          0x000000ce        0x0 ./Shell/ServoUnit.o
+ .text          0x000000ce        0x0 ./Shell/SignalUnit.o
+ .text          0x000000ce        0x0 ./Shell/SystemUnit.o
+ .text          0x000000ce        0x0 ./Shell/TtlBusUnit.o
+ .text          0x000000ce        0x0 ./Lib/DynamixelProtocol.o
+ .text          0x000000ce        0x0 ./Lib/Mapping.o
+ .text          0x000000ce        0x0 ./Lib/Queue.o
+ .text          0x000000ce        0x0 ./Lib/UpRobotProtocol.o
+ .text          0x000000ce        0x0 ./Drivers/Adc.o
+ .text          0x000000ce        0x0 ./Drivers/ExtInt.o
+ .text          0x000000ce        0x0 ./Drivers/Gpio.o
+ .text          0x000000ce        0x0 ./Drivers/Isr.o
+ .text          0x000000ce        0x0 ./Drivers/Led.o
+ .text          0x000000ce        0x0 ./Drivers/Ppm.o
+ .text          0x000000ce        0x0 ./Drivers/Sim.o
+ .text          0x000000ce        0x0 ./Drivers/Spi.o
+ .text          0x000000ce        0x0 ./Drivers/Timer.o
+ .text          0x000000ce        0x0 ./Drivers/Uart.o
+ .text          0x000000ce        0x0 ./Drivers/VirtualUart.o
+ .text          0x000000ce        0x0 ./Apps/Debug.o
+ .text          0x000000ce        0x0 ./Apps/RobotDog.o
+ .text          0x000000ce        0x0 ./Apps/SystemInit.o
+ .text          0x000000ce        0x0 ./Apps/SystemTask.o
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x000000ce        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x000000ce                . = ALIGN (0x2)
+ *(.text.*)
+ .text.DelayMS  0x000000ce       0x10 ./Shell/Api.o
+                0x000000ce                DelayMS
+ .text.MFSetPortDirect
+                0x000000de       0x10 ./Shell/Api.o
+                0x000000de                MFSetPortDirect
+ .text.MFGetDigiInput
+                0x000000ee       0x2e ./Shell/Api.o
+                0x000000ee                MFGetDigiInput
+ .text.MFDigiOutput
+                0x0000011c       0x10 ./Shell/Api.o
+                0x0000011c                MFDigiOutput
+ .text.MFGetAD  0x0000012c       0x34 ./Shell/Api.o
+                0x0000012c                MFGetAD
+ .text.MFSetServoMode
+                0x00000160       0x10 ./Shell/Api.o
+                0x00000160                MFSetServoMode
+ .text.MFGetServoPos
+                0x00000170       0x34 ./Shell/Api.o
+                0x00000170                MFGetServoPos
+ .text.MFServoAction
+                0x000001a4       0x10 ./Shell/Api.o
+                0x000001a4                MFServoAction
+ .text.MFSetServoRotaSpd
+                0x000001b4       0x56 ./Shell/Api.o
+                0x000001b4                MFSetServoRotaSpd
+ .text.MFSetServoPos
+                0x0000020a       0x40 ./Shell/Api.o
+                0x0000020a                MFSetServoPos
+ .text.MFInitServoMapping
+                0x0000024a        0xc ./Shell/Api.o
+                0x0000024a                MFInitServoMapping
+ .text.Uart0SetDCB
+                0x00000256        0xc ./Shell/Api.o
+                0x00000256                Uart0SetDCB
+ .text.Uart0Send
+                0x00000262       0x16 ./Shell/Api.o
+                0x00000262                Uart0Send
+ .text.Uart1SetDCB
+                0x00000278        0xc ./Shell/Api.o
+                0x00000278                Uart1SetDCB
+ .text.Uart1Send
+                0x00000284       0x16 ./Shell/Api.o
+                0x00000284                Uart1Send
+ .text.MFInit   0x0000029a        0x6 ./Shell/Api.o
+                0x0000029a                MFInit
+ .text.ClearSystemClock
+                0x000002a0       0x12 ./Shell/ClockUnit.o
+ .text.GetSystemClock
+                0x000002b2       0x1c ./Shell/ClockUnit.o
+ .text.DelaySystemMs
+                0x000002ce       0x28 ./Shell/ClockUnit.o
+ .text.DelaySystemS
+                0x000002f6       0x5c ./Shell/ClockUnit.o
+ .text.ServeSystemClock
+                0x00000352       0x3a ./Shell/ClockUnit.o
+                0x00000352                ServeSystemClock
+ .text.FillSlaveSendStructByArray
+                0x0000038c       0x6a ./Shell/CommandParser.o
+ .text.GetAdcSamplingAtTimes
+                0x000003f6       0x94 ./Shell/CommandParser.o
+                0x000003f6                GetAdcSamplingAtTimes
+ .text.GetAdcMultiAtTimes
+                0x0000048a      0x118 ./Shell/CommandParser.o
+                0x0000048a                GetAdcMultiAtTimes
+ .text.GetAdcAllAtTimes
+                0x000005a2       0xba ./Shell/CommandParser.o
+                0x000005a2                GetAdcAllAtTimes
+ .text.GetIoInputAtTimes
+                0x0000065c       0x80 ./Shell/CommandParser.o
+                0x0000065c                GetIoInputAtTimes
+ .text.GetServoPositionMultiAtTimes
+                0x000006dc      0x11e ./Shell/CommandParser.o
+                0x000006dc                GetServoPositionMultiAtTimes
+ .text.SetServoPositionMultiAtTimes
+                0x000007fa       0xfa ./Shell/CommandParser.o
+                0x000007fa                SetServoPositionMultiAtTimes
+ .text.SetServoVelocityMultiAtTimes
+                0x000008f4       0x94 ./Shell/CommandParser.o
+                0x000008f4                SetServoVelocityMultiAtTimes
+ .text.SetServoModeMultiAtTimes
+                0x00000988       0xaa ./Shell/CommandParser.o
+                0x00000988                SetServoModeMultiAtTimes
+ .text.SetServoTorqueMultiAtTimes
+                0x00000a32       0xaa ./Shell/CommandParser.o
+                0x00000a32                SetServoTorqueMultiAtTimes
+ .text.CommandParse
+                0x00000adc      0x9c8 ./Shell/CommandParser.o
+ .text.TestServo
+                0x000014a4       0x60 ./Shell/ServoUnit.o
+ .text.SetServoTorqueEnable
+                0x00001504       0x76 ./Shell/ServoUnit.o
+ .text.SetServoRegPosition
+                0x0000157a       0x70 ./Shell/ServoUnit.o
+ .text.SetServoPosition
+                0x000015ea       0x90 ./Shell/ServoUnit.o
+ .text.SetServoSyncPosition
+                0x0000167a      0x164 ./Shell/ServoUnit.o
+ .text.SetServoRegVelocity
+                0x000017de       0x98 ./Shell/ServoUnit.o
+ .text.SetServoVelocity
+                0x00001876       0xa4 ./Shell/ServoUnit.o
+ .text.SetServoSyncVelocity
+                0x0000191a      0x172 ./Shell/ServoUnit.o
+ .text.SetServoAngleLimit
+                0x00001a8c       0x6c ./Shell/ServoUnit.o
+ .text.SetServoId
+                0x00001af8       0x2a ./Shell/ServoUnit.o
+ .text.GetServoPosition
+                0x00001b22       0x50 ./Shell/ServoUnit.o
+ .text.CalcServoVelocity
+                0x00001b72      0x114 ./Shell/ServoUnit.o
+ .text.GetServoLoad
+                0x00001c86       0x2e ./Shell/ServoUnit.o
+ .text.GetServoAngleLimit
+                0x00001cb4       0x44 ./Shell/ServoUnit.o
+ .text.ActionServo
+                0x00001cf8       0x2a ./Shell/ServoUnit.o
+ .text.ActionSyncServo
+                0x00001d22       0x12 ./Shell/ServoUnit.o
+ .text.SetServoMode
+                0x00001d34      0x192 ./Shell/ServoUnit.o
+ .text.InitServoNodeBuffer
+                0x00001ec6       0x90 ./Shell/ServoUnit.o
+ .text.SetSignalRegisterByte
+                0x00001f56       0x16 ./Shell/SignalUnit.o
+ .text.GetSignalRegisterByte
+                0x00001f6c       0x1a ./Shell/SignalUnit.o
+ .text.InitSignalRegister
+                0x00001f86       0x20 ./Shell/SignalUnit.o
+ .text.WriteTtlBusRegWord2
+                0x00001fa6       0xbe ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusWord2
+                0x00002064       0xc0 ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusRegWord
+                0x00002124       0xaa ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusWord
+                0x000021ce       0xaa ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusByte
+                0x00002278       0xa2 ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusSyncControl
+                0x0000231a       0x2e ./Shell/TtlBusUnit.o
+ .text.WriteTtlBusSyncWord2
+                0x00002348       0xda ./Shell/TtlBusUnit.o
+ .text.ActionTtlBusSync
+                0x00002422       0x38 ./Shell/TtlBusUnit.o
+ .text.ActionTtlBus
+                0x0000245a       0x44 ./Shell/TtlBusUnit.o
+ .text.ReadTtlBusWord
+                0x0000249e       0xc0 ./Shell/TtlBusUnit.o
+ .text.ReadTtlBusWord2
+                0x0000255e       0xe4 ./Shell/TtlBusUnit.o
+ .text.PingTtlBus
+                0x00002642       0x8c ./Shell/TtlBusUnit.o
+ .text.InitTtlBusSync
+                0x000026ce       0x20 ./Shell/TtlBusUnit.o
+ .text.TxBsuSyncPacket
+                0x000026ee      0x160 ./Lib/DynamixelProtocol.o
+ .text.RxBsuPacket
+                0x0000284e      0x12a ./Lib/DynamixelProtocol.o
+ .text.TxBsuPacket
+                0x00002978      0x244 ./Lib/DynamixelProtocol.o
+ .text.Inverse1DimArray
+                0x00002bbc       0x1e ./Lib/Mapping.o
+ .text.TestEmptyBufferQueue
+                0x00002bda       0x18 ./Lib/Queue.o
+ .text.AddBufferQueue
+                0x00002bf2       0x62 ./Lib/Queue.o
+ .text.OutBufferQueue
+                0x00002c54       0x48 ./Lib/Queue.o
+ .text.CheckBufferQueueLength
+                0x00002c9c       0x1e ./Lib/Queue.o
+ .text.CheckBufferQueueState
+                0x00002cba        0x6 ./Lib/Queue.o
+ .text.ClearBufferQueue
+                0x00002cc0       0x10 ./Lib/Queue.o
+ .text.InitBufferQueue
+                0x00002cd0       0x40 ./Lib/Queue.o
+ .text.UpRobotSlaveRxPacket
+                0x00002d10      0x10a ./Lib/UpRobotProtocol.o
+ .text.UpRobotSlaveTxPacket
+                0x00002e1a      0x104 ./Lib/UpRobotProtocol.o
+ .text.UpRobotMasterRxPacket
+                0x00002f1e      0x12c ./Lib/UpRobotProtocol.o
+ .text.UpRobotMasterTxPacket
+                0x0000304a       0xee ./Lib/UpRobotProtocol.o
+ .text.GetAdcRegValue
+                0x00003138       0x22 ./Drivers/Adc.o
+ .text.GetAdcValue
+                0x0000315a       0x30 ./Drivers/Adc.o
+ .text.StartAdc
+                0x0000318a       0x12 ./Drivers/Adc.o
+ .text.IsrAdcSampling
+                0x0000319c       0x48 ./Drivers/Adc.o
+                0x0000319c                IsrAdcSampling
+ .text.InitAdc  0x000031e4       0x6e ./Drivers/Adc.o
+ .text.SetExtIntMode
+                0x00003252       0x68 ./Drivers/ExtInt.o
+ .text.EnableExtIntInterrupt
+                0x000032ba       0x16 ./Drivers/ExtInt.o
+ .text.DisableExtIntInterrupt
+                0x000032d0       0x18 ./Drivers/ExtInt.o
+ .text.InitExtInt
+                0x000032e8       0x46 ./Drivers/ExtInt.o
+ .text.SetGpioDdr
+                0x0000332e       0xd8 ./Drivers/Gpio.o
+ .text.SetGpioPort
+                0x00003406       0x76 ./Drivers/Gpio.o
+ .text.SetOutputPort
+                0x0000347c       0x12 ./Drivers/Gpio.o
+ .text.SetOutputBit
+                0x0000348e       0x84 ./Drivers/Gpio.o
+ .text.GetGpioPort
+                0x00003512       0x7e ./Drivers/Gpio.o
+ .text.GetInputPort
+                0x00003590       0x44 ./Drivers/Gpio.o
+ .text.GetInputBit
+                0x000035d4       0x70 ./Drivers/Gpio.o
+ .text.IsrGpioSampling
+                0x00003644       0x32 ./Drivers/Gpio.o
+                0x00003644                IsrGpioSampling
+ .text.GetInputFilte
+                0x00003676      0x106 ./Drivers/Gpio.o
+ .text.GetInputFilteBit
+                0x0000377c       0x78 ./Drivers/Gpio.o
+ .text.InitGpio
+                0x000037f4      0x27e ./Drivers/Gpio.o
+ .text.__vector_16
+                0x00003a72       0x94 ./Drivers/Isr.o
+                0x00003a72                __vector_16
+ .text.__vector_1
+                0x00003b06       0x5c ./Drivers/Isr.o
+                0x00003b06                __vector_1
+ .text.__vector_29
+                0x00003b62       0x76 ./Drivers/Isr.o
+                0x00003b62                __vector_29
+ .text.SetLedBit
+                0x00003bd8       0x1a ./Drivers/Led.o
+ .text.ClrLedBit
+                0x00003bf2       0x1c ./Drivers/Led.o
+ .text.ChangeLedBit
+                0x00003c0e       0x1a ./Drivers/Led.o
+ .text.SetLedGroup
+                0x00003c28       0x10 ./Drivers/Led.o
+ .text.InitLed  0x00003c38       0x4c ./Drivers/Led.o
+ .text.SetPpmPosition
+                0x00003c84      0x162 ./Drivers/Ppm.o
+ .text.SetPpmAcceleration
+                0x00003de6       0x9e ./Drivers/Ppm.o
+ .text.SetPpmVelocity
+                0x00003e84      0x164 ./Drivers/Ppm.o
+ .text.SetPpmLimit
+                0x00003fe8      0x1a4 ./Drivers/Ppm.o
+ .text.GetPpmLimit
+                0x0000418c       0xa4 ./Drivers/Ppm.o
+ .text.GetPpmPosition
+                0x00004230       0x58 ./Drivers/Ppm.o
+ .text.RunPpm   0x00004288      0x1bc ./Drivers/Ppm.o
+ .text.StopPpm  0x00004444       0x52 ./Drivers/Ppm.o
+ .text.__vector_26
+                0x00004496       0x16 ./Drivers/Ppm.o
+                0x00004496                __vector_26
+ .text.IsrPpmOverFlow
+                0x000044ac      0x134 ./Drivers/Ppm.o
+                0x000044ac                IsrPpmOverFlow
+ .text.InitPpm  0x000045e0      0x172 ./Drivers/Ppm.o
+ .text.EnableExtRam
+                0x00004752       0x16 ./Drivers/Sim.o
+ .text.DisableExtRam
+                0x00004768        0x8 ./Drivers/Sim.o
+ .text.SetXtalDivide
+                0x00004770        0x6 ./Drivers/Sim.o
+ .text.EnableXtalDivide
+                0x00004776        0x8 ./Drivers/Sim.o
+ .text.DisableXtalDivide
+                0x0000477e        0x8 ./Drivers/Sim.o
+ .text.ResetSoft
+                0x00004786       0x1c ./Drivers/Sim.o
+ .text.InitSim  0x000047a2       0x6a ./Drivers/Sim.o
+ .text.EnableSpiInterrupt
+                0x0000480c        0x4 ./Drivers/Spi.o
+ .text.DisableSpiInterrupt
+                0x00004810        0x4 ./Drivers/Spi.o
+ .text.SetSpiClockRate
+                0x00004814       0x18 ./Drivers/Spi.o
+ .text.SetSpiClockMode
+                0x0000482c       0x14 ./Drivers/Spi.o
+ .text.SetSpiMode
+                0x00004840       0x2c ./Drivers/Spi.o
+ .text.StartTransport
+                0x0000486c        0x4 ./Drivers/Spi.o
+ .text.WriteSpiSendBuffer
+                0x00004870       0x12 ./Drivers/Spi.o
+ .text.ProcessSendMsg
+                0x00004882       0x9e ./Drivers/Spi.o
+ .text.IsrSpiProcessExtInt
+                0x00004920       0x22 ./Drivers/Spi.o
+                0x00004920                IsrSpiProcessExtInt
+ .text.IsrSpiProcessTimerInt
+                0x00004942       0x2c ./Drivers/Spi.o
+                0x00004942                IsrSpiProcessTimerInt
+ .text.__vector_17
+                0x0000496e       0xca ./Drivers/Spi.o
+                0x0000496e                __vector_17
+ .text.TransportByte
+                0x00004a38       0x2a ./Drivers/Spi.o
+ .text.InitSpi  0x00004a62       0xc8 ./Drivers/Spi.o
+ .text.SetTimer0Mode
+                0x00004b2a       0x20 ./Drivers/Timer.o
+ .text.SetTimer1Mode
+                0x00004b4a       0x1a ./Drivers/Timer.o
+ .text.SetTimer3Mode
+                0x00004b64       0x22 ./Drivers/Timer.o
+ .text.SetTimer1Prescale
+                0x00004b86        0xc ./Drivers/Timer.o
+ .text.SetTimer3Prescale
+                0x00004b92       0x10 ./Drivers/Timer.o
+ .text.SetTimer1CounterRegister
+                0x00004ba2        0x6 ./Drivers/Timer.o
+ .text.SetTimer3CounterRegister
+                0x00004ba8        0xa ./Drivers/Timer.o
+ .text.EnableTimer1Interrupt
+                0x00004bb2       0x28 ./Drivers/Timer.o
+ .text.EnableTimer3Interrupt
+                0x00004bda       0x2c ./Drivers/Timer.o
+ .text.DisableTimer1Interrupt
+                0x00004c06       0x2a ./Drivers/Timer.o
+ .text.DisableTimer3Interrupt
+                0x00004c30       0x2a ./Drivers/Timer.o
+ .text.SetTimer1CompareOutputAMode
+                0x00004c5a       0x12 ./Drivers/Timer.o
+ .text.SetTimer3CompareOutputAMode
+                0x00004c6c       0x16 ./Drivers/Timer.o
+ .text.SetTimer1CompareOutputBMode
+                0x00004c82       0x10 ./Drivers/Timer.o
+ .text.SetTimer3CompareOutputBMode
+                0x00004c92       0x14 ./Drivers/Timer.o
+ .text.SetTimer1CompareRegisterA
+                0x00004ca6        0x6 ./Drivers/Timer.o
+ .text.SetTimer3CompareRegisterA
+                0x00004cac        0xa ./Drivers/Timer.o
+ .text.SetTimer1CompareRegisterB
+                0x00004cb6        0x6 ./Drivers/Timer.o
+ .text.SetTimer3CompareRegisterB
+                0x00004cbc        0xa ./Drivers/Timer.o
+ .text.SetTimer1CaptureRegister
+                0x00004cc6        0x6 ./Drivers/Timer.o
+ .text.SetTimer3CaptureRegister
+                0x00004ccc        0xa ./Drivers/Timer.o
+ .text.InitTimer1
+                0x00004cd6       0xa2 ./Drivers/Timer.o
+ .text.SetTimer0Prescale
+                0x00004d78        0xc ./Drivers/Timer.o
+ .text.SetTimer0CounterRegister
+                0x00004d84        0x4 ./Drivers/Timer.o
+ .text.EnableTimer0Interrupt
+                0x00004d88       0x16 ./Drivers/Timer.o
+ .text.DisableTimer0Interrupt
+                0x00004d9e       0x18 ./Drivers/Timer.o
+ .text.InitTimer0
+                0x00004db6       0x6a ./Drivers/Timer.o
+ .text.InitTimer3
+                0x00004e20       0xba ./Drivers/Timer.o
+ .text.SetUart0BaudRate
+                0x00004eda       0x46 ./Drivers/Uart.o
+ .text.SetUart1BaudRate
+                0x00004f20       0x58 ./Drivers/Uart.o
+ .text.SendUart0Byte
+                0x00004f78       0x16 ./Drivers/Uart.o
+ .text.SendUart1Byte
+                0x00004f8e       0x46 ./Drivers/Uart.o
+ .text.WriteUart0TxBuffer
+                0x00004fd4       0x12 ./Drivers/Uart.o
+ .text.WriteUart1TxBuffer
+                0x00004fe6       0x12 ./Drivers/Uart.o
+ .text.SendUart0TxBuffer
+                0x00004ff8       0x4e ./Drivers/Uart.o
+ .text.SendUart1TxBuffer
+                0x00005046        0xc ./Drivers/Uart.o
+ .text.ClearUart1ReceiveBuffer
+                0x00005052       0x10 ./Drivers/Uart.o
+ .text.ClearUart0ReceiveBuffer
+                0x00005062       0x10 ./Drivers/Uart.o
+ .text.ReceiveUart0Byte
+                0x00005072       0x16 ./Drivers/Uart.o
+ .text.ReceiveUart1Byte
+                0x00005088       0x16 ./Drivers/Uart.o
+ .text.TestUart0ReceiveBuffer
+                0x0000509e       0x1a ./Drivers/Uart.o
+ .text.TestUart1ReceiveBuffer
+                0x000050b8       0x1a ./Drivers/Uart.o
+ .text.InitUart0
+                0x000050d2       0xd4 ./Drivers/Uart.o
+ .text.InitUart1
+                0x000051a6      0x116 ./Drivers/Uart.o
+ .text.__vector_20
+                0x000052bc       0x62 ./Drivers/Uart.o
+                0x000052bc                __vector_20
+ .text.__vector_18
+                0x0000531e       0x5c ./Drivers/Uart.o
+                0x0000531e                __vector_18
+ .text.__vector_30
+                0x0000537a       0x5e ./Drivers/Uart.o
+                0x0000537a                __vector_30
+ .text.__vector_19
+                0x000053d8       0x7e ./Drivers/Uart.o
+                0x000053d8                __vector_19
+ .text.__vector_31
+                0x00005456       0x88 ./Drivers/Uart.o
+                0x00005456                __vector_31
+ .text.SetUart2BaudRate
+                0x000054de       0xb0 ./Drivers/VirtualUart.o
+ .text.SendUart2Byte
+                0x0000558e       0x44 ./Drivers/VirtualUart.o
+ .text.WriteUart2TxBuffer
+                0x000055d2       0x12 ./Drivers/VirtualUart.o
+ .text.SendUart2TxBuffer
+                0x000055e4       0x72 ./Drivers/VirtualUart.o
+ .text.ReceiveUart2Byte
+                0x00005656       0x16 ./Drivers/VirtualUart.o
+ .text.TestReceiveUart2
+                0x0000566c       0x1a ./Drivers/VirtualUart.o
+ .text.InitUart2
+                0x00005686       0x9c ./Drivers/VirtualUart.o
+ .text.max      0x00005722       0x40 ./Apps/Debug.o
+                0x00005722                max
+ .text.min      0x00005762       0x40 ./Apps/Debug.o
+                0x00005762                min
+ .text.zhili    0x000057a2       0x4a ./Apps/Debug.o
+                0x000057a2                zhili
+ .text.shou_yubei
+                0x000057ec       0xaa ./Apps/Debug.o
+                0x000057ec                shou_yubei
+ .text.standup  0x00005896      0x1b0 ./Apps/Debug.o
+                0x00005896                standup
+ .text.RelativeMove
+                0x00005a46       0x44 ./Apps/Debug.o
+                0x00005a46                RelativeMove
+ .text.danger   0x00005a8a       0x2e ./Apps/Debug.o
+                0x00005a8a                danger
+ .text.move     0x00005ab8       0x4e ./Apps/Debug.o
+                0x00005ab8                move
+ .text.huanchong
+                0x00005b06       0x5a ./Apps/Debug.o
+                0x00005b06                huanchong
+ .text.gongji   0x00005b60      0x16a ./Apps/Debug.o
+                0x00005b60                gongji
+ .text.shangtai
+                0x00005cca      0x1a4 ./Apps/Debug.o
+                0x00005cca                shangtai
+ .text.main     0x00005e6e      0x41e ./Apps/Debug.o
+                0x00005e6e                main
+ .text.ConversionRelPosition
+                0x0000628c       0xa0 ./Apps/RobotDog.o
+ .text.ControlSynchronous4Dof
+                0x0000632c      0x19a ./Apps/RobotDog.o
+ .text.ControlSynchronous1Dof
+                0x000064c6       0x98 ./Apps/RobotDog.o
+ .text.SlowlyWalk
+                0x0000655e      0x3ca ./Apps/RobotDog.o
+                0x0000655e                SlowlyWalk
+ .text.TurnLeft
+                0x00006928      0x3ca ./Apps/RobotDog.o
+                0x00006928                TurnLeft
+ .text.TurnRight
+                0x00006cf2      0x3ca ./Apps/RobotDog.o
+                0x00006cf2                TurnRight
+ .text.SitDown  0x000070bc      0x144 ./Apps/RobotDog.o
+                0x000070bc                SitDown
+ .text.Stand    0x00007200       0xd4 ./Apps/RobotDog.o
+                0x00007200                Stand
+ .text.ShookHands
+                0x000072d4      0x19e ./Apps/RobotDog.o
+                0x000072d4                ShookHands
+ .text.Urination
+                0x00007472      0x22c ./Apps/RobotDog.o
+                0x00007472                Urination
+ .text.GetDown  0x0000769e       0x82 ./Apps/RobotDog.o
+                0x0000769e                GetDown
+ .text.Stretched
+                0x00007720      0x23a ./Apps/RobotDog.o
+                0x00007720                Stretched
+ .text.Scratched
+                0x0000795a      0x292 ./Apps/RobotDog.o
+                0x0000795a                Scratched
+ .text.RobotDog_Behavior
+                0x00007bec      0x178 ./Apps/RobotDog.o
+                0x00007bec                RobotDog_Behavior
+ .text.Test     0x00007d64       0x96 ./Apps/RobotDog.o
+                0x00007d64                Test
+ .text.InitDevices
+                0x00007dfa       0xc0 ./Apps/SystemInit.o
+                0x00007dfa                InitDevices
+ .text.ProcessingCommand
+                0x00007eba       0x62 ./Apps/SystemTask.o
+                0x00007eba                ProcessingCommand
+ .text.SystemClockTick
+                0x00007f1c       0xb6 ./Apps/SystemTask.o
+                0x00007f1c                SystemClockTick
+ .text.libgcc   0x00007fd2       0x3e e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                0x00007fd2                __mulsi3
+ .text.libgcc   0x00008010       0x18 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                0x00008010                __udivmodqi4
+ .text.libgcc   0x00008028       0x26 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                0x00008028                __divmodhi4
+                0x00008028                _div
+ .text.libgcc   0x0000804e       0x44 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                0x0000804e                __udivmodsi4
+ .text.libgcc   0x00008092        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00008092        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00008092       0x28 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x00008092                __udivmodhi4
+ .text.avr-libc
+                0x000080ba      0x20a e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x000080ba                malloc
+                0x00008214                free
+                0x000082c4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000082c4        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x000082c4                exit
+                0x000082c4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000082c4        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000082c8                _etext = .
+
+.data           0x00800100      0xb66 load address 0x000082c8
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100        0x0 ./Shell/Api.o
+ .data          0x00800100        0x0 ./Shell/ClockUnit.o
+ .data          0x00800100        0x0 ./Shell/CommandParser.o
+ .data          0x00800100        0x0 ./Shell/ServoUnit.o
+ .data          0x00800100        0x0 ./Shell/SignalUnit.o
+ .data          0x00800100        0x0 ./Shell/SystemUnit.o
+ .data          0x00800100        0x0 ./Shell/TtlBusUnit.o
+ .data          0x00800100        0x0 ./Lib/DynamixelProtocol.o
+ .data          0x00800100        0x0 ./Lib/Mapping.o
+ .data          0x00800100        0x0 ./Lib/Queue.o
+ .data          0x00800100        0x0 ./Lib/UpRobotProtocol.o
+ .data          0x00800100        0x0 ./Drivers/Adc.o
+ .data          0x00800100        0x0 ./Drivers/ExtInt.o
+ .data          0x00800100        0x0 ./Drivers/Gpio.o
+ .data          0x00800100        0x0 ./Drivers/Isr.o
+ .data          0x00800100        0x0 ./Drivers/Led.o
+ .data          0x00800100        0x0 ./Drivers/Ppm.o
+ .data          0x00800100        0x0 ./Drivers/Sim.o
+ .data          0x00800100        0x0 ./Drivers/Spi.o
+ .data          0x00800100        0x0 ./Drivers/Timer.o
+ .data          0x00800100        0x0 ./Drivers/Uart.o
+ .data          0x00800100        0x0 ./Drivers/VirtualUart.o
+ .data          0x00800100        0x0 ./Apps/Debug.o
+ .data          0x00800100        0x0 ./Apps/RobotDog.o
+ .data          0x00800100        0x0 ./Apps/SystemInit.o
+ .data          0x00800100        0x0 ./Apps/SystemTask.o
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x00800100        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x00800100        0x6 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800102                __malloc_heap_start
+                0x00800104                __malloc_heap_end
+                0x00800100                __malloc_margin
+ *(.data*)
+ .data.clock_control
+                0x00800106        0xe ./Shell/ClockUnit.o
+                0x00800106                clock_control
+ .data.command_control
+                0x00800114        0x2 ./Shell/CommandParser.o
+                0x00800114                command_control
+ .data.sayn_communications_control
+                0x00800116      0x20a ./Shell/CommandParser.o
+                0x00800116                sayn_communications_control
+ .data.servo_control
+                0x00800320       0xc6 ./Shell/ServoUnit.o
+                0x00800320                servo_control
+ .data.signal_control
+                0x008003e6       0x46 ./Shell/SignalUnit.o
+                0x008003e6                signal_control
+ .data.main_communication
+                0x0080042c      0x155 ./Shell/SystemUnit.o
+                0x0080042c                main_communication
+ .data.ttlbus_control
+                0x00800581       0xea ./Shell/TtlBusUnit.o
+                0x00800581                ttlbus_control
+ .data.bsu_control
+                0x0080066b        0x6 ./Lib/DynamixelProtocol.o
+                0x0080066b                bsu_control
+ .data.mapping_control
+                0x00800671        0x2 ./Lib/Mapping.o
+                0x00800671                mapping_control
+ .data.buffer_queue_control
+                0x00800673        0xe ./Lib/Queue.o
+                0x00800673                buffer_queue_control
+ .data.uprobot_control
+                0x00800681        0x8 ./Lib/UpRobotProtocol.o
+                0x00800681                uprobot_control
+ .data.adc_control
+                0x00800689       0x22 ./Drivers/Adc.o
+                0x00800689                adc_control
+ .data.extint_control
+                0x008006ab        0x9 ./Drivers/ExtInt.o
+                0x008006ab                extint_control
+ .data.gpio_control
+                0x008006b4       0x9c ./Drivers/Gpio.o
+                0x008006b4                gpio_control
+ .data.led_control
+                0x00800750        0xb ./Drivers/Led.o
+                0x00800750                led_control
+ .data.ppm_control
+                0x0080075b       0x1c ./Drivers/Ppm.o
+                0x0080075b                ppm_control
+ .data.sim_control
+                0x00800777        0xf ./Drivers/Sim.o
+                0x00800777                sim_control
+ .data.spi_control
+                0x00800786       0x24 ./Drivers/Spi.o
+                0x00800786                spi_control
+ .data.timer3_control
+                0x008007aa       0x1b ./Drivers/Timer.o
+                0x008007aa                timer3_control
+ .data.timer0_control
+                0x008007c5       0x11 ./Drivers/Timer.o
+                0x008007c5                timer0_control
+ .data.timer1_control
+                0x008007d6       0x1b ./Drivers/Timer.o
+                0x008007d6                timer1_control
+ .data.uart0_control
+                0x008007f1       0x21 ./Drivers/Uart.o
+                0x008007f1                uart0_control
+ .data.uart1_control
+                0x00800812       0x21 ./Drivers/Uart.o
+                0x00800812                uart1_control
+ .data.uart0_test
+                0x00800833       0x21 ./Drivers/Uart.o
+                0x00800833                uart0_test
+ .data.uart1_test
+                0x00800854       0x21 ./Drivers/Uart.o
+                0x00800854                uart1_test
+ .data.uart2_control
+                0x00800875       0x21 ./Drivers/VirtualUart.o
+                0x00800875                uart2_control
+ .data.SERVO_MAPPING
+                0x00800896        0xa ./Apps/Debug.o
+                0x00800896                SERVO_MAPPING
+ .data.dangerInt
+                0x008008a0        0x2 ./Apps/Debug.o
+                0x008008a0                dangerInt
+ *(.rodata)
+ *(.rodata*)
+ .rodata.SERVO_BASIC_POSITION
+                0x008008a2       0x40 ./Apps/RobotDog.o
+                0x008008a2                SERVO_BASIC_POSITION
+ .rodata.SERVO_OFFSET_DIRECTION
+                0x008008e2       0x20 ./Apps/RobotDog.o
+                0x008008e2                SERVO_OFFSET_DIRECTION
+ .rodata.b1.2618
+                0x00800902        0x8 ./Apps/RobotDog.o
+ .rodata.b.2617
+                0x0080090a        0x8 ./Apps/RobotDog.o
+ .rodata.a1.2616
+                0x00800912        0x8 ./Apps/RobotDog.o
+ .rodata.a.2615
+                0x0080091a        0x8 ./Apps/RobotDog.o
+ .rodata.b3.2607
+                0x00800922        0x8 ./Apps/RobotDog.o
+ .rodata.a3.2606
+                0x0080092a        0x8 ./Apps/RobotDog.o
+ .rodata.b2.2605
+                0x00800932        0x8 ./Apps/RobotDog.o
+ .rodata.a2.2604
+                0x0080093a        0x8 ./Apps/RobotDog.o
+ .rodata.b.2603
+                0x00800942        0x8 ./Apps/RobotDog.o
+ .rodata.a1.2602
+                0x0080094a        0x8 ./Apps/RobotDog.o
+ .rodata.a.2601
+                0x00800952        0x8 ./Apps/RobotDog.o
+ .rodata.b.2593
+                0x0080095a        0x8 ./Apps/RobotDog.o
+ .rodata.a.2592
+                0x00800962        0x8 ./Apps/RobotDog.o
+ .rodata.b5.2585
+                0x0080096a        0x8 ./Apps/RobotDog.o
+ .rodata.b4.2584
+                0x00800972        0x8 ./Apps/RobotDog.o
+ .rodata.b3.2583
+                0x0080097a        0x8 ./Apps/RobotDog.o
+ .rodata.b2.2582
+                0x00800982        0x8 ./Apps/RobotDog.o
+ .rodata.b1.2581
+                0x0080098a        0x8 ./Apps/RobotDog.o
+ .rodata.b.2580
+                0x00800992        0x8 ./Apps/RobotDog.o
+ .rodata.a.2578
+                0x0080099a        0x8 ./Apps/RobotDog.o
+ .rodata.C.10.2587
+                0x008009a2        0x8 ./Apps/RobotDog.o
+ .rodata.b1.2568
+                0x008009aa        0x8 ./Apps/RobotDog.o
+ .rodata.b.2567
+                0x008009b2        0x8 ./Apps/RobotDog.o
+ .rodata.a5.2566
+                0x008009ba        0x8 ./Apps/RobotDog.o
+ .rodata.a2.2565
+                0x008009c2        0x8 ./Apps/RobotDog.o
+ .rodata.a1.2564
+                0x008009ca        0x8 ./Apps/RobotDog.o
+ .rodata.a.2563
+                0x008009d2        0x8 ./Apps/RobotDog.o
+ .rodata.a4.2562
+                0x008009da        0x8 ./Apps/RobotDog.o
+ .rodata.a3.2561
+                0x008009e2        0x8 ./Apps/RobotDog.o
+ .rodata.b.2555
+                0x008009ea        0x8 ./Apps/RobotDog.o
+ .rodata.a.2554
+                0x008009f2        0x8 ./Apps/RobotDog.o
+ .rodata.b1.2548
+                0x008009fa        0x8 ./Apps/RobotDog.o
+ .rodata.a1.2547
+                0x00800a02        0x8 ./Apps/RobotDog.o
+ .rodata.b.2546
+                0x00800a0a        0x8 ./Apps/RobotDog.o
+ .rodata.a.2545
+                0x00800a12        0x8 ./Apps/RobotDog.o
+ .rodata.turn_right_mapping.2527
+                0x00800a1a        0x4 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_f.2524
+                0x00800a1e        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_e.2523
+                0x00800a26        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_d.2522
+                0x00800a2e        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_c.2521
+                0x00800a36        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_b.2520
+                0x00800a3e        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_a.2519
+                0x00800a46        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_f.2518
+                0x00800a4e        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_e.2517
+                0x00800a56        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_d.2516
+                0x00800a5e        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_c.2515
+                0x00800a66        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_b.2514
+                0x00800a6e        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_a.2513
+                0x00800a76        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_f.2512
+                0x00800a7e        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_e.2511
+                0x00800a86        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_d.2510
+                0x00800a8e        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_c.2509
+                0x00800a96        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_b.2508
+                0x00800a9e        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_a.2507
+                0x00800aa6        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_f.2506
+                0x00800aae        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_e.2505
+                0x00800ab6        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_d.2504
+                0x00800abe        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_c.2503
+                0x00800ac6        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_b.2502
+                0x00800ace        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_a.2501
+                0x00800ad6        0x8 ./Apps/RobotDog.o
+ .rodata.turn_left_mapping.2483
+                0x00800ade        0x4 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_f.2480
+                0x00800ae2        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_e.2479
+                0x00800aea        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_d.2478
+                0x00800af2        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_c.2477
+                0x00800afa        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_b.2476
+                0x00800b02        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_a.2475
+                0x00800b0a        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_f.2474
+                0x00800b12        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_e.2473
+                0x00800b1a        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_d.2472
+                0x00800b22        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_c.2471
+                0x00800b2a        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_b.2470
+                0x00800b32        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_a.2469
+                0x00800b3a        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_f.2468
+                0x00800b42        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_e.2467
+                0x00800b4a        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_d.2466
+                0x00800b52        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_c.2465
+                0x00800b5a        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_b.2464
+                0x00800b62        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_a.2463
+                0x00800b6a        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_f.2462
+                0x00800b72        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_e.2461
+                0x00800b7a        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_d.2460
+                0x00800b82        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_c.2459
+                0x00800b8a        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_b.2458
+                0x00800b92        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_a.2457
+                0x00800b9a        0x8 ./Apps/RobotDog.o
+ .rodata.slowly_walk_mapping.2439
+                0x00800ba2        0x4 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_f.2436
+                0x00800ba6        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_e.2435
+                0x00800bae        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_d.2434
+                0x00800bb6        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_c.2433
+                0x00800bbe        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_b.2432
+                0x00800bc6        0x8 ./Apps/RobotDog.o
+ .rodata.r_hindleg_vector_a.2431
+                0x00800bce        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_f.2430
+                0x00800bd6        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_e.2429
+                0x00800bde        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_d.2428
+                0x00800be6        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_c.2427
+                0x00800bee        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_b.2426
+                0x00800bf6        0x8 ./Apps/RobotDog.o
+ .rodata.l_hindleg_vector_a.2425
+                0x00800bfe        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_f.2424
+                0x00800c06        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_e.2423
+                0x00800c0e        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_d.2422
+                0x00800c16        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_c.2421
+                0x00800c1e        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_b.2420
+                0x00800c26        0x8 ./Apps/RobotDog.o
+ .rodata.r_foreleg_vector_a.2419
+                0x00800c2e        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_f.2418
+                0x00800c36        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_e.2417
+                0x00800c3e        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_d.2416
+                0x00800c46        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_c.2415
+                0x00800c4e        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_b.2414
+                0x00800c56        0x8 ./Apps/RobotDog.o
+ .rodata.l_foreleg_vector_a.2413
+                0x00800c5e        0x8 ./Apps/RobotDog.o
+ *(.gnu.linkonce.d*)
+                0x00800c66                . = ALIGN (0x2)
+                0x00800c66                _edata = .
+                0x00800c66                PROVIDE (__data_end, .)
+
+.bss            0x00800c66       0xc6
+                0x00800c66                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x00800c66        0x0 ./Shell/Api.o
+ .bss           0x00800c66        0x0 ./Shell/ClockUnit.o
+ .bss           0x00800c66        0x0 ./Shell/CommandParser.o
+ .bss           0x00800c66        0x0 ./Shell/ServoUnit.o
+ .bss           0x00800c66        0x0 ./Shell/SignalUnit.o
+ .bss           0x00800c66        0x0 ./Shell/SystemUnit.o
+ .bss           0x00800c66        0x0 ./Shell/TtlBusUnit.o
+ .bss           0x00800c66        0x0 ./Lib/DynamixelProtocol.o
+ .bss           0x00800c66        0x0 ./Lib/Mapping.o
+ .bss           0x00800c66        0x0 ./Lib/Queue.o
+ .bss           0x00800c66        0x0 ./Lib/UpRobotProtocol.o
+ .bss           0x00800c66        0x0 ./Drivers/Adc.o
+ .bss           0x00800c66        0x0 ./Drivers/ExtInt.o
+ .bss           0x00800c66        0x0 ./Drivers/Gpio.o
+ .bss           0x00800c66        0x0 ./Drivers/Isr.o
+ .bss           0x00800c66        0x0 ./Drivers/Led.o
+ .bss           0x00800c66        0x0 ./Drivers/Ppm.o
+ .bss           0x00800c66        0x0 ./Drivers/Sim.o
+ .bss           0x00800c66        0x0 ./Drivers/Spi.o
+ .bss           0x00800c66        0x0 ./Drivers/Timer.o
+ .bss           0x00800c66        0x0 ./Drivers/Uart.o
+ .bss           0x00800c66        0x0 ./Drivers/VirtualUart.o
+ .bss           0x00800c66        0x0 ./Apps/Debug.o
+ .bss           0x00800c66        0x0 ./Apps/RobotDog.o
+ .bss           0x00800c66        0x0 ./Apps/SystemInit.o
+ .bss           0x00800c66        0x0 ./Apps/SystemTask.o
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800c66        0x0 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+ *(.bss*)
+ .bss.servo_update_count
+                0x00800c66        0x1 ./Shell/Api.o
+ .bss.t.2356    0x00800c67        0x1 ./Drivers/Isr.o
+ .bss.ppm_state
+                0x00800c68       0x60 ./Drivers/Ppm.o
+ .bss.ppm_buffer_state
+                0x00800cc8       0x60 ./Drivers/Ppm.o
+ *(COMMON)
+ COMMON         0x00800d28        0x4 e:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(malloc.o)
+                0x00800d28                __brkval
+                0x00800d2a                __flp
+                0x00800d2c                PROVIDE (__bss_end, .)
+                0x000082c8                __data_load_start = LOADADDR (.data)
+                0x00008e2e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800d2c        0x0
+                0x00800d2c                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800d2c                PROVIDE (__noinit_end, .)
+                0x00800d2c                _end = .
+                0x00800d2c                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000    0x12348
+ *(.stab)
+ .stab          0x00000000     0x1230 ./Shell/Api.o
+ .stab          0x00001230      0x324 ./Shell/ClockUnit.o
+                                0x8ac (size before relaxing)
+ .stab          0x00001554     0x1944 ./Shell/CommandParser.o
+                               0x22b0 (size before relaxing)
+ .stab          0x00002e98     0x156c ./Shell/ServoUnit.o
+                               0x1b48 (size before relaxing)
+ .stab          0x00004404      0x378 ./Shell/SignalUnit.o
+                                0x9c0 (size before relaxing)
+ .stab          0x0000477c      0x1f8 ./Shell/SystemUnit.o
+                                0x8d0 (size before relaxing)
+ .stab          0x00004974      0xd20 ./Shell/TtlBusUnit.o
+                               0x1548 (size before relaxing)
+ .stab          0x00005694      0x81c ./Lib/DynamixelProtocol.o
+                                0xe88 (size before relaxing)
+ .stab          0x00005eb0      0x228 ./Lib/Mapping.o
+                                0x7b0 (size before relaxing)
+ .stab          0x000060d8      0x480 ./Lib/Queue.o
+                                0xa74 (size before relaxing)
+ .stab          0x00006558      0x6e4 ./Lib/UpRobotProtocol.o
+                                0xdbc (size before relaxing)
+ .stab          0x00006c3c      0x438 ./Drivers/Adc.o
+                                0x9b4 (size before relaxing)
+ .stab          0x00007074      0x30c ./Drivers/ExtInt.o
+                                0x870 (size before relaxing)
+ .stab          0x00007380      0xb64 ./Drivers/Gpio.o
+                               0x10c8 (size before relaxing)
+ .stab          0x00007ee4      0x588 ./Drivers/Isr.o
+                                0xe88 (size before relaxing)
+ .stab          0x0000846c      0x300 ./Drivers/Led.o
+                                0x8b8 (size before relaxing)
+ .stab          0x0000876c      0xb1c ./Drivers/Ppm.o
+                               0x11ac (size before relaxing)
+ .stab          0x00009288      0x3cc ./Drivers/Sim.o
+                                0x954 (size before relaxing)
+ .stab          0x00009654      0x948 ./Drivers/Spi.o
+                                0xfd8 (size before relaxing)
+ .stab          0x00009f9c      0xa38 ./Drivers/Timer.o
+                                0xfd8 (size before relaxing)
+ .stab          0x0000a9d4      0xa8c ./Drivers/Uart.o
+                               0x10f8 (size before relaxing)
+ .stab          0x0000b460      0x5c4 ./Drivers/VirtualUart.o
+                                0xc54 (size before relaxing)
+ .stab          0x0000ba24      0xcfc ./Apps/Debug.o
+                               0x16f8 (size before relaxing)
+ .stab          0x0000c720     0x540c ./Apps/RobotDog.o
+                               0x5eb0 (size before relaxing)
+ .stab          0x00011b2c      0x420 ./Apps/SystemInit.o
+                                0xec4 (size before relaxing)
+ .stab          0x00011f4c      0x3fc ./Apps/SystemTask.o
+                                0xea0 (size before relaxing)
+
+.stabstr        0x00000000     0xb4ab
+ *(.stabstr)
+ .stabstr       0x00000000     0xb4ab ./Shell/Api.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info)
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(FractalMaster.elf elf32-avr)
+LOAD linker stubs
